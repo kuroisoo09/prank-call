@@ -12,12 +12,12 @@ function send($phone){
                 echo $asw."\n";
 }
 echo "
-----------------------------------------------+
-    Prank Call From TOKOPEDIA                 |
-    Mod By      : KUR01500                    |
-    whatsapp    : 082•••••••                  |
-    Penggunaan  : Awali Dengan Angka [+62]    |
-----------------------------------------------+\n";
+--------------------------------------------------+
+    Prank Call From TOKOPEDIA                     |
+    created by      : KUR01500                    |
+    whatsapp        : 082•••••••                  |
+    Penggunaan      : Awali Dengan Angka [+62]    |
+--------------------------------------------------+\n";
 echo "Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
